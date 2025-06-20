@@ -25,7 +25,7 @@ This project simulates the early steps of log analysis, often performed in real-
 
 |-----parser.py
 
-|-----alerts.csv
+|-----alerts.csv (generated)
 
 |-----README.md
 
@@ -48,10 +48,15 @@ python parser.py
 
 ##  Example Output
 Event Type,Source IP
+
 Failed Login,192.168.1.4
+
 Failed Login,192.168.1.4
+
 Failed Login,192.168.1.4
+
 Blacklisted IP Access,45.67.89.123
+
 Privilege Escalation,N/A
 
 ---
