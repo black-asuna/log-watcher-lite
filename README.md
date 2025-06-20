@@ -50,19 +50,19 @@ python parser.py
 3. View alerts.csv for detection output.
 
 ---
+##  Sample Output
 
-##  Example Output
-Event Type,Source IP
+When the script is run on the included log file, the tool generates this alert summary:
 
-Failed Login,192.168.1.4
+| Event Type            | Source IP       |
+|-----------------------|-----------------|
+| Failed Login          | 192.168.1.4     |
+| Failed Login          | 192.168.1.4     |
+| Failed Login          | 192.168.1.4     |
+| Failed Login          | 45.67.89.123    |
+| Privilege Escalation  | N/A             |
 
-Failed Login,192.168.1.4
-
-Failed Login,192.168.1.4
-
-Blacklisted IP Access,45.67.89.123
-
-Privilege Escalation,N/A
+The output is saved as `alerts.csv` and can be opened in any spreadsheet program or parsed by other automation tools.
 
 ---
 
