@@ -1,5 +1,10 @@
 # Log Watcher Lite 
 
+![Python](https://img.shields.io/badge/python-3.10-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Built by Soeli Llinas](https://img.shields.io/badge/Built%20by-Soeli%20Llinas-purple?style=flat-square&logo=github)
+
 **Log Watcher Lite** is a Python-based mini SOC tool that scans system authentication logs (`auth.log`) for signs of suspicious activity like failed logins, brute force attempts, and logins from blacklisted IP addresses.
 
 This project simulates the early steps of log analysis, often performed in real-world Security Operations Centers (SOCs), and is built to reinforce key cybersecurity analyst skills.
