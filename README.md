@@ -16,6 +16,7 @@ This project simulates the early steps of log analysis, often performed in real-
   -  Multiple failed SSH login attempts
   -  Logins from blacklisted IPs
   -  Privilege escalation via `sudo`
+  -  **Brute-force attacks** (3+ failed logins from the same IP)
 - Outputs alerts in a structured `.csv` file
 - Clean and customizable Python code
 
@@ -61,6 +62,7 @@ When the script is run on the included log file, the tool generates this alert s
 | Failed Login          | 192.168.1.4     |
 | Failed Login          | 45.67.89.123    |
 | Privilege Escalation  | N/A             |
+| Brute Force Suspected | 192.168.1.4     |
 
 The output is saved as `alerts.csv` and can be opened in any spreadsheet program or parsed by other automation tools.
 
