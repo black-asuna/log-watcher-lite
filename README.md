@@ -79,6 +79,7 @@ This project was created to demonstrate:
 ##  Author
 
 Soeli Llinas
+
 Aspiring Cybersecurity Analyst | Python & Threat Intelligence Enthusiast
 
  | Gurabo, PR | 🌐 [LinkedIn](https://www.linkedin.com/in/sllinasrosa/)
